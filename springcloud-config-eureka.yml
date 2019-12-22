@@ -5,7 +5,7 @@ server:
 spring:
     profiles: test
     application:
-        name: microservicecloud-config-client-eureka
+        name: microservicecloud-config-client-eureka1
         
 ---
 server:
@@ -14,7 +14,7 @@ server:
 spring:
     profiles: dev
     application:
-        name: microservicecloud-config-client-eureka
+        name: microservicecloud-config-client-eureka2
 
 ---
 
