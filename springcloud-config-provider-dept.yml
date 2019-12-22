@@ -4,7 +4,7 @@ server:
 spring:
   profiles: dev
   datasource:
-  url: jdbc:mysql://localhost:3306/yingfandb              # 数据库名称
+    url: jdbc:mysql://localhost:3306/yingfandb              # 数据库名称
 
 ---
 server:
@@ -12,6 +12,5 @@ server:
 spring:
   profiles: prod
   datasource:
-  url: jdbc:mysql://localhost:3306/yingfandb2              # 数据库名称
+    url: jdbc:mysql://localhost:3306/yingfandb2              # 数据库名称
 
----
